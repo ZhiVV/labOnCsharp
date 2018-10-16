@@ -1,0 +1,14 @@
+E:\programing\Labs\Variant1_zadacha2\Variant1_zadacha2\bin\Debug\Variant1_zadacha2.exe.config
+E:\programing\Labs\Variant1_zadacha2\Variant1_zadacha2\bin\Debug\Variant1_zadacha2.exe
+E:\programing\Labs\Variant1_zadacha2\Variant1_zadacha2\bin\Debug\Variant1_zadacha2.pdb
+E:\programing\Labs\Variant1_zadacha2\Variant1_zadacha2\obj\Debug\Variant1_zadacha2.csprojAssemblyReference.cache
+E:\programing\Labs\Variant1_zadacha2\Variant1_zadacha2\obj\Debug\Variant1_zadacha2.csproj.CoreCompileInputs.cache
+E:\programing\Labs\Variant1_zadacha2\Variant1_zadacha2\obj\Debug\Variant1_zadacha2.exe
+E:\programing\Labs\Variant1_zadacha2\Variant1_zadacha2\obj\Debug\Variant1_zadacha2.pdb
+D:\Vlad\develop\лабораторки по До диез\лабораторки по До диез\Labs\Variant1_zadacha2\Variant1_zadacha2\bin\Debug\Variant1_zadacha2.exe.config
+D:\Vlad\develop\лабораторки по До диез\лабораторки по До диез\Labs\Variant1_zadacha2\Variant1_zadacha2\bin\Debug\Variant1_zadacha2.exe
+D:\Vlad\develop\лабораторки по До диез\лабораторки по До диез\Labs\Variant1_zadacha2\Variant1_zadacha2\bin\Debug\Variant1_zadacha2.pdb
+D:\Vlad\develop\лабораторки по До диез\лабораторки по До диез\Labs\Variant1_zadacha2\Variant1_zadacha2\obj\Debug\Variant1_zadacha2.csprojAssemblyReference.cache
+D:\Vlad\develop\лабораторки по До диез\лабораторки по До диез\Labs\Variant1_zadacha2\Variant1_zadacha2\obj\Debug\Variant1_zadacha2.csproj.CoreCompileInputs.cache
+D:\Vlad\develop\лабораторки по До диез\лабораторки по До диез\Labs\Variant1_zadacha2\Variant1_zadacha2\obj\Debug\Variant1_zadacha2.exe
+D:\Vlad\develop\лабораторки по До диез\лабораторки по До диез\Labs\Variant1_zadacha2\Variant1_zadacha2\obj\Debug\Variant1_zadacha2.pdb
