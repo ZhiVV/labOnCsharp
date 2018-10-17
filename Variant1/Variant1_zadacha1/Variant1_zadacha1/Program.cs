@@ -19,36 +19,36 @@ namespace Variant1_zadacha1
             {
                 Console.WriteLine(" Вариант решения №1");
                 //объявляю переменные типа int, но можно было бы использовать sbyte или short.
-                int A = 0, B = 0, C = 0, D = 0;
+                int a = 0, b = 0, c = 0, d = 0;
 
                 //Выводим поясняющую надпись и считываем введенное значение в переменную А, преобразовав тип string в int
                 Console.Write("Введите целочисленное значение переменной A и нажмите клавишу Enter: ");
-                A = Convert.ToInt32(Console.ReadLine());
+                a = Convert.ToInt32(Console.ReadLine());
                 //  Все то же самое для В
                 Console.Write("Введите целочисленное значение переменной B и нажмите клавишу Enter: ");
-                B = Convert.ToInt32(Console.ReadLine());
+                b = Convert.ToInt32(Console.ReadLine());
                 //  Все то же самое для С
                 Console.Write("Введите целочисленное значение переменной C и нажмите клавишу Enter: ");
-                C = Convert.ToInt32(Console.ReadLine());
+                c = Convert.ToInt32(Console.ReadLine());
                 //  Все то же самое для D
                 Console.Write("Введите целочисленное значение переменной D и нажмите клавишу Enter: ");
-                D = Convert.ToInt32(Console.ReadLine());
+                d = Convert.ToInt32(Console.ReadLine());
 
                 // строка разделитель
                 Console.WriteLine();
                 
                 //Выводим сумму А и В 
-                Console.WriteLine("Сумма чисел А и В равна: {0}", A + B);
+                Console.WriteLine("Сумма чисел А и В равна: {0}", a + b);
                 //Выводим сумму А и C 
-                Console.WriteLine("Сумма чисел А и C равна: {0}", A + C);
+                Console.WriteLine("Сумма чисел А и C равна: {0}", a + c);
                 //Выводим сумму А и D 
-                Console.WriteLine("Сумма чисел А и D равна: {0}", A + D);
+                Console.WriteLine("Сумма чисел А и D равна: {0}", a + d);
                 //Выводим сумму B и C 
-                Console.WriteLine("Сумма чисел B и C равна: {0}", B + C);
+                Console.WriteLine("Сумма чисел B и C равна: {0}", b + c);
                 //Выводим сумму B и D 
-                Console.WriteLine("Сумма чисел B и D равна: {0}", B + D);
+                Console.WriteLine("Сумма чисел B и D равна: {0}", b + d);
                 //Выводим сумму C и D 
-                Console.WriteLine("Сумма чисел C и D равна: {0}", C + D);
+                Console.WriteLine("Сумма чисел C и D равна: {0}", c + d);
 
                 //Задержка консоли
                 Console.WriteLine("Для продолжения работы программы нажмите любую клавишу");

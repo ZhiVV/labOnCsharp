@@ -12,3 +12,10 @@ E:\programing\Labs\Variant1_zadacha3\Variant1_zadacha3\obj\Debug\Variant1_zadach
 E:\programing\Labs\Variant1_zadacha3\Variant1_zadacha3\obj\Debug\Variant1_zadacha3.csproj.CoreCompileInputs.cache
 E:\programing\Labs\Variant1_zadacha3\Variant1_zadacha3\obj\Debug\Variant1_zadacha3.exe
 E:\programing\Labs\Variant1_zadacha3\Variant1_zadacha3\obj\Debug\Variant1_zadacha3.pdb
+E:\programing\Labs\Variant1\Variant1_zadacha3\Variant1_zadacha3\bin\Debug\Variant1_zadacha3.exe.config
+E:\programing\Labs\Variant1\Variant1_zadacha3\Variant1_zadacha3\bin\Debug\Variant1_zadacha3.exe
+E:\programing\Labs\Variant1\Variant1_zadacha3\Variant1_zadacha3\bin\Debug\Variant1_zadacha3.pdb
+E:\programing\Labs\Variant1\Variant1_zadacha3\Variant1_zadacha3\obj\Debug\Variant1_zadacha3.csprojAssemblyReference.cache
+E:\programing\Labs\Variant1\Variant1_zadacha3\Variant1_zadacha3\obj\Debug\Variant1_zadacha3.csproj.CoreCompileInputs.cache
+E:\programing\Labs\Variant1\Variant1_zadacha3\Variant1_zadacha3\obj\Debug\Variant1_zadacha3.exe
+E:\programing\Labs\Variant1\Variant1_zadacha3\Variant1_zadacha3\obj\Debug\Variant1_zadacha3.pdb
