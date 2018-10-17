@@ -8,6 +8,28 @@ namespace Variant1_zadacha4
 {
     class Program
     {
+        // Данная функция запрашивает текст для ввода, проверяет что введенный текст это число  от 1 до 1000 (в условиях задачи ограничения в 1000 не было, добавил в гуманистических целях 
+        // и возвращает введенное значение в место вызова. Есди введено неверное значение функция рекурсивно вызывает саму себя и просит повторить ввод.
+        // Так же первоначальный метод Convert.ToInt32() используемый для преобразования строки в целое число, был заменен на TryParse() который в случае ошибки преобразования не выдаст exсeption который нужно будет обработать отдельно
+        
+        static int GetInt ()
+        {
+            int newValue;
+
+            string inputValue = Console.ReadLine();           
+            bool inputCheck = int.TryParse(inputValue, out newValue);
+            
+            if (inputCheck == true & newValue > 0 & newValue <= 1000)
+            {                
+                return newValue;
+            }
+            else
+            {
+                Console.Write("Вы ввели не число или число меньше 1 либо больше 1000, пожалуйста повторите ввод:");
+                return GetInt();
+            }            
+        }
+
         static void Main(string[] args)
         {
             /*
@@ -16,10 +38,11 @@ namespace Variant1_zadacha4
             */
 
             //Просим ввести размер матрицы, m и n
-            Console.Write("Введите значение количества строк матрицы m: ");
-            int m = Convert.ToInt32(Console.ReadLine());
-            Console.Write("Введите значение количества столбцов матрицы n: ");
-            int n = Convert.ToInt32(Console.ReadLine());
+            Console.Write("Введите значение количества строк матрицы m, от 1 до 100: ");
+            // ввод и проверка введенного числа вынесена в отдельную функцию GetInt
+            int m = GetInt();
+            Console.Write("Введите значение количества столбцов матрицы n, от 1 до 100: ");
+            int n = GetInt();
             //инициализируем двумерный массив размера m * n
             int[,] array = new int[m, n];
 
