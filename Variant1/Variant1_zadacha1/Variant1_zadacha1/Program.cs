@@ -21,18 +21,18 @@ namespace Variant1_zadacha1
                 //объявляю переменные типа int, но можно было бы использовать sbyte или short.
                 int a = 0, b = 0, c = 0, d = 0;
 
-                //Выводим поясняющую надпись и считываем введенное значение в переменную А, преобразовав тип string в int
+                //Выводим поясняющую надпись и считываем введенное значение в переменные A,B,C,D используя функцию GetInt()
                 Console.Write("Введите целочисленное значение переменной A и нажмите клавишу Enter: ");
-                a = Convert.ToInt32(Console.ReadLine());
-                //  Все то же самое для В
+                a = GetInt();
+                
                 Console.Write("Введите целочисленное значение переменной B и нажмите клавишу Enter: ");
-                b = Convert.ToInt32(Console.ReadLine());
-                //  Все то же самое для С
+                b = GetInt();
+                
                 Console.Write("Введите целочисленное значение переменной C и нажмите клавишу Enter: ");
-                c = Convert.ToInt32(Console.ReadLine());
-                //  Все то же самое для D
+                c = GetInt();
+                
                 Console.Write("Введите целочисленное значение переменной D и нажмите клавишу Enter: ");
-                d = Convert.ToInt32(Console.ReadLine());
+                d = GetInt();
 
                 // строка разделитель
                 Console.WriteLine();
@@ -65,11 +65,11 @@ namespace Variant1_zadacha1
                 //Вместо двух массивов, возможно удобнее было бы использовать какой то вид коллекций отличный от массивов, но еще не разбирался с ними
                 //или сделать двумерный массив 2 * 4 типа string, но для финального сложения требовалось бы преобразование каждого элемента первой строки из string в int
                 string[] names = new string[4] {"A", "B", "C", "D"};
-                // в цикле for записываем введенные пользователем цифры в массив numbers, преобразовав тип string в int
+                // в цикле for записываем введенные пользователем цифры в массив numbers, используя функцию GetInt()
                 for (int i = 0; i < numbers.Length; i++)
                 {
                     Console.Write($"Введите целочисленное значение переменной {names[i]} и нажмите клавишу Enter: ");
-                    numbers[i] = Convert.ToInt32(Console.ReadLine());                    
+                    numbers[i] = GetInt();                    
                 }
                 // во вложенном цикле начинаем складывать каждый элемент массива попарно со следующими и выводить сумму на экран
                 for (int i = 0; i + 1 < numbers.Length; i++)
@@ -84,6 +84,24 @@ namespace Variant1_zadacha1
                 Console.WriteLine("Для завершения работы программы нажмите любую клавишу");
                 Console.ReadKey();
             }
+        }
+
+        //
+        static int GetInt()
+        {
+            int newValue;
+            string inputValue = Console.ReadLine();
+            bool checkInputValue = int.TryParse(inputValue, out newValue);
+            if (checkInputValue == true)
+            {
+                return newValue;
+            }
+            else
+            {
+                Console.Write("Вы ввели не число, пожалуйста повторите ввод:");
+                return GetInt();
+            }
+            
         }
     }
 }
