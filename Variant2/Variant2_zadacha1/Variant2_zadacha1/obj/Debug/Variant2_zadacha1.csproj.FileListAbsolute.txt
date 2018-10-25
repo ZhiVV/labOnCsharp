@@ -1,7 +1,0 @@
-E:\programing\Labs\Variant2\Variant2_zadacha1\Variant2_zadacha1\Variant2_zadacha1\bin\Debug\Variant2_zadacha1.exe.config
-E:\programing\Labs\Variant2\Variant2_zadacha1\Variant2_zadacha1\Variant2_zadacha1\bin\Debug\Variant2_zadacha1.exe
-E:\programing\Labs\Variant2\Variant2_zadacha1\Variant2_zadacha1\Variant2_zadacha1\bin\Debug\Variant2_zadacha1.pdb
-E:\programing\Labs\Variant2\Variant2_zadacha1\Variant2_zadacha1\Variant2_zadacha1\obj\Debug\Variant2_zadacha1.csprojAssemblyReference.cache
-E:\programing\Labs\Variant2\Variant2_zadacha1\Variant2_zadacha1\Variant2_zadacha1\obj\Debug\Variant2_zadacha1.csproj.CoreCompileInputs.cache
-E:\programing\Labs\Variant2\Variant2_zadacha1\Variant2_zadacha1\Variant2_zadacha1\obj\Debug\Variant2_zadacha1.exe
-E:\programing\Labs\Variant2\Variant2_zadacha1\Variant2_zadacha1\Variant2_zadacha1\obj\Debug\Variant2_zadacha1.pdb
